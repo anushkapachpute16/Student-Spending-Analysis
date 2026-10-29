@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Excel lock files
+~$*.xlsx
+
+# Dataset: source and licence are unknown, so the data is NOT published by default.
+# Place your authorised copy at data/raw/student_spending.csv (see data/raw/README.md).
+# Remove the next four lines only after confirming you may redistribute the data.
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/README.md
+!data/processed/README.md

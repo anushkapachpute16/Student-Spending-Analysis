@@ -1,0 +1,13 @@
+# Core analysis and charts
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+# Excel workbook (written with XlsxWriter, read back with openpyxl for verification)
+xlsxwriter>=3.1
+openpyxl>=3.1
+# Jupyter notebook (needed only to open/execute the notebook)
+jupyter>=1.0
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.29
